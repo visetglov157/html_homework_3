@@ -17,6 +17,7 @@ img {
     display: block;
 }
 button{
+    font-family: 'Gilroy-Bold', sans-serif;
     border: none;
     cursor: pointer;
 }
@@ -28,6 +29,8 @@ button{
 }
 
 .header {
+    margin-top: 40px;
+    margin-bottom: 84px;
 }
 .navigation {
 }
@@ -45,16 +48,16 @@ button{
 .content {
 }
 .content-title {
-    font-family: var(--font-family);
     font-weight: 400;
     font-size: 60px;
     color: #000;
+    margin-bottom: 17px;
 }
 .content-text {
-        font-family: var(--second-family);
     font-weight: 400;
     font-size: 20px;
     color: #888;
+    margin-bottom: 37px;
 }
 .content-btn-box {
 }
