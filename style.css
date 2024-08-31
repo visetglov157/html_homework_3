@@ -1,15 +1,84 @@
 @import url('https://fonts.cdnfonts.com/css/gilroy-bold');
-
+/* Обнуление страницы */
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
 }
-
 body {
     scroll-behavior: smooth;
     background: #FFFFFF;
     font-family: 'Gilroy-Bold', sans-serif;
     color: #000000;
 }
+img {
+    max-width: 100%;
+    display: block;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+/* ----------------- */
+
+.container {
+    max-width: 1169.73px;
+    margin: 0 auto;
+}
+
+.header {
+}
+.navigation {
+}
+.nav-logo-link {
+}
+.nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000;
+}
+.main {
+}
+.content-main {
+}
+.content {
+}
+.content-title {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 60px;
+    color: #000;
+}
+.content-text {
+        font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    color: #888;
+}
+.content-btn-box {
+}
+.content-btn1 {
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50px;
+    width: 140px;
+    height: 50px;
+    box-shadow: 4px 4px 8px 0 rgba(242, 88, 34, 0.2);
+    background: #f25822;
+}
+.content-btn2{
+    font-weight: 400;
+    font-size: 15px;
+    color: #aaa;
+    width: 90px;
+    height: 19px;
+    background: none;
+}
+.content-img {
+}
+.logos {
+}
+
+
